@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>File upload</title>
+</head>
+<body>
+    <form enctype="multipart/form-data" class="filUploader">
+        <input type="file" name="image" id="fileSelect">
+        <label for="fileSelect">
+            Vælg et billede
+            eller træk billedet hertil
+        </label>
+        <div class="successMessage">
+            <p>dit billede er blevet uploadet</p>
+        </div>
+    </form>
+    <div class="cropPicture">
+        <h3 class="previewContainerHeadline">Eksempel</h3>
+        <div class="previewContainer">
+            <img src="http://placehold.it/210x170?text=Preview%20Image" alt="placeholder image" class="previewImage">
+        </div>
+        <h3 class="croppedPictureHeadline">Tilpasset billede</h3>
+        <div class="croppedPicture">
+            <canvas class="finalImage"></canvas>
+        </div>
+        <h3 class="settingsHeadline">indstillinger</h3>
+        <div class="settings">
+            <p>Her kommer indstillinger</p>
+        </div>
+    </div>
+    <script src="../assets/js/filUpload.js"></script>
+</body>
+</html>

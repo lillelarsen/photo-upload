@@ -1,0 +1,22 @@
+{
+  "name": "photo-upload",
+  "version": "1.0.0",
+  "description": "Advanced photo upload",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Steffen Larsen",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-formidable": "^1.2.0",
+    "mysql2": "^1.6.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  }
+}

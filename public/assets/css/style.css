@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.advancedForm {
+    background-color: #c8dadf;
+    padding: 10em 2em;
+    outline: 2px dashed #92b0b3;
+    outline-offset: -1em;
+    text-align: center;
+    border-radius: .7em;
+    -webkit-border-radius: .7em;
+    -moz-border-radius: .7em;
+    -ms-border-radius: .7em;
+    -o-border-radius: .7em;
+}
+.cropPicture {
+    display: grid;
+    grid-template-columns: 300px 300px 1fr;
+    text-align: center;
+    background-color: greenyellow;
+    margin-top: 2em;
+    border-radius: .7em;
+    -webkit-border-radius: .7em;
+    -moz-border-radius: .7em;
+    -ms-border-radius: .7em;
+    -o-border-radius: .7em;
+}
+.advancedForm input[type=file] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.advancedForm label {
+    color: #0f3c4b;
+    cursor: pointer;
+}
+
+.advancedForm label:hover {
+    color: #39bfd3;
+}
+.previewImage {
+    height: 200px;
+    width: auto;
+}
+
+.successMessage {
+    display: none;
+}
+
+.showMe {
+    display: block;
+}
+.previewContainerHeadline {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.previewContainer {
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.croppedPictureHeadline {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.croppedPicture {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.settingsHeadline {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.settings {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.divKnap {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    grid-column: 1/2;
+}

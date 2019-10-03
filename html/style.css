@@ -1,0 +1,35 @@
+.advancedForm {
+    background-color: #c8dadf;
+    padding: 10em 2em;
+    outline: 2px dashed #92b0b3;
+    outline-offset: -1em;
+    text-align: center;
+    font-family: "comic sans ms", Arial, Helvetica, sans-serif;
+    border-radius: .7em;
+    -webkit-border-radius: .7em;
+    -moz-border-radius: .7em;
+    -ms-border-radius: .7em;
+    -o-border-radius: .7em;
+}
+
+.advancedForm input[type=file] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.advancedForm label {
+    color: #0f3c4b;
+    cursor: pointer;
+}
+
+.advancedForm label:hover {
+    color: #39bfd3;
+}
+.previewImage {
+    max-width: 200px;
+    height: auto;
+}
